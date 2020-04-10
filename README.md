@@ -12,5 +12,5 @@ examples: https://phodal.github.io/logo/png/github.png
 
 ```html
 <img src="https://phodal.github.io/logo/png/github.png" alt="">
-```html
+```
 
