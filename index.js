@@ -44,7 +44,7 @@ for (let i = 0; i < elements.elements.length; i++) {
         });
     };
 
-    download('https://xebialabs.com/wp-content/uploads/files/logos/resized/' + newName + '.png', 'png/' + newName.replace(/\//g, '') + '.png', function () {
+    download('https://xebialabs.com/wp-content/uploads/files/logos/' + newName + '.png', 'origin/' + newName.replace(/\//g, '') + '.png', function () {
         console.log('done');
     });
 }
