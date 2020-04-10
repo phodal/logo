@@ -1,0 +1,20 @@
+{
+  "name": "crawler-logo",
+  "version": "1.0.0",
+  "description": "A hackway to crawler logo",
+  "main": "elements.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/phodal/crawler-logo.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/phodal/crawler-logo/issues"
+  },
+  "homepage": "https://github.com/phodal/crawler-logo#readme"
+}
