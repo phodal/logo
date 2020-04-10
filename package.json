@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/phodal/crawler-logo/issues"
   },
-  "homepage": "https://github.com/phodal/crawler-logo#readme"
+  "homepage": "https://github.com/phodal/crawler-logo#readme",
+  "dependencies": {
+    "request": "^2.88.2"
+  }
 }
