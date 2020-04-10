@@ -8,9 +8,9 @@ examples: https://phodal.github.io/logo/origin/github.jpg
 <img src="https://phodal.github.io/logo/origin/github.jpg" alt="">
 ```
 
-examples: https://phodal.github.io/logo/origin/github.png
+examples: https://phodal.github.io/logo/png/github.png
 
 ```html
-<img src="https://phodal.github.io/logo/origin/github.png" alt="">
+<img src="https://phodal.github.io/logo/png/github.png" alt="">
 ```html
 
