@@ -2,7 +2,7 @@
   "name": "crawler-logo",
   "version": "1.0.0",
   "description": "A hackway to crawler logo",
-  "main": "elements.js",
+  "main": "elements.json",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
