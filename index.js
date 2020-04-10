@@ -35,16 +35,15 @@ for (let i = 0; i < elements.elements.length; i++) {
     let newName = element.name.toLowerCase().replace(/\s/g, '-')
 
     var download = function (uri, filename, callback) {
-        request.head(uri, function (err, res, body) {
-            if ('image/png' !== res.headers['content-type']) {
-                return;
-            }
-
-            request(uri).pipe(fs.createWriteStream(filename)).on('close', callback);
-        });
+        request({
+            headers: {
+                'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.15; rv:74.0) Gecko/20100101 Firefox/74.0'
+            },
+            url: uri
+        }).pipe(fs.createWriteStream(filename)).on('close', callback);
     };
 
-    download('https://xebialabs.com/wp-content/uploads/files/logos/' + newName + '.png', 'origin/' + newName.replace(/\//g, '') + '.png', function () {
+    download('https://xebialabs.com/wp-content/uploads/files/tool-chest/' + newName + '.jpg', 'origin/' + newName.replace(/\//g, '') + '.jpg', function () {
         console.log('done');
     });
 }
